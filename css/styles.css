@@ -218,6 +218,34 @@ img {
   color: var(--title-text-color);
 }
 
+.features-title::before {
+  display: block;
+  content: "";
+  width: 270px;
+  height: 120px;
+  background-color: var(--secondary-bg-color);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.detail::before {
+  background-image: url(../images/features/antenna.svg);
+}
+
+.time::before {
+  background-image: url(../images/features/clock.svg);
+}
+
+.plan::before {
+  background-image: url(../images/features/diagram.svg);
+}
+
+.tech::before {
+  background-image: url(../images/features/astronaut.svg);
+}
+
 .features-description {
   font-weight: 400;
   font-size: 14px;
