@@ -153,6 +153,26 @@ img {
   letter-spacing: 0.02em;
 }
 
+.header-mail-link::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 14px;
+  background-image: url(../images/header/mail.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.header-tel-link::before {
+  display: inline-block;
+  content: "";
+  width: 16px;
+  height: 14px;
+  background-image: url(../images/header/smartphone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .navigation-list-item-link:hover,
 .navigation-list-item-link:focus,
 .header-mail-link:hover,
