@@ -34,6 +34,7 @@ font-family: Roboto normal(400) p фичи, p команды, p портфеля
 
 .link {
   text-decoration: none;
+  color: inherit;
 }
 
 .address {
@@ -457,6 +458,12 @@ img {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 94px;
+}
+
+.project-list-item:hover,
+.project-list-item:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .project-list-item {
