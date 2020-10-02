@@ -30,11 +30,11 @@ font-family: Roboto normal(400) p фичи, p команды, p портфеля
 
 .list {
   list-style: none;
+  color: inherit;
 }
 
 .link {
   text-decoration: none;
-  color: inherit;
 }
 
 .address {
@@ -45,8 +45,8 @@ body {
   font-family: var(--primari-font-family);
   color: var(--primary-text-color);
   font-style: normal;
-  /*max-width: 1600px;
-  margin: auto;*/
+  max-width: 1600px;
+  margin: auto;
 }
 
 img {
@@ -157,28 +157,6 @@ img {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
-}
-
-.header-mail-link::before {
-  display: inline-block;
-  content: "";
-  width: 16px;
-  height: 14px;
-  background-image: url(../images/header/mail.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
-}
-
-.header-tel-link::before {
-  display: inline-block;
-  content: "";
-  width: 10px;
-  height: 16px;
-  background-image: url(../images/header/smartphone.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  margin-right: 10px;
 }
 
 .navigation-list-item-link:hover,
@@ -399,6 +377,14 @@ img {
 
 .footer .container {
   padding: 60px 15px;
+}
+
+.address-list {
+  display: block;
+}
+
+.adress-list-item {
+  margin-top: 10px;
 }
 
 .address-list-link {
