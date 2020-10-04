@@ -146,7 +146,6 @@ img {
 .address-list {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .address-logo {
