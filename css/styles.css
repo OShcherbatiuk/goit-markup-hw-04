@@ -423,6 +423,14 @@ img {
   justify-content: space-between;
 }
 
+.client-logo {
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
 .client-logo:hover {
   fill: var(--accent-color);
 }
@@ -434,6 +442,11 @@ img {
 
 .footer .container {
   padding: 60px 15px;
+  display: flex;
+}
+
+.address {
+  margin-right: 70px;
 }
 
 .adress-list-item {
@@ -474,6 +487,44 @@ img {
 .logo-foot-second {
   color: var(--secondary-title-color);
 }
+
+.footer-social {
+  display: flex;
+}
+
+.footer-text-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--secondary-title-color);
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-list-item-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.footer .social-link {
+  fill: var(--secondary-title-color);
+}
+
+.footer-social-list-item-link:hover {
+  background-color: var(--accent-color);
+}
+
 /*==============  END FOOTER ==============*/
 
 /*++++++++++++++++ PORTFOLIO +++++++++++++++++*/
