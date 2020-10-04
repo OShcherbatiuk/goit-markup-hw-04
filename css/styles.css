@@ -422,15 +422,26 @@ img {
   justify-content: space-between;
 }
 
-.client-logo {
+.client-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--link-color);
   box-sizing: border-box;
   border-radius: 4px;
 }
 
-.client-logo:hover {
+.client-logo {
+  fill: var(--link-color);
+}
+
+.client-list-item:hover {
+  border: 1px solid var(--accent-color);
+}
+
+.client-list-item:hover .client-logo {
   fill: var(--accent-color);
 }
 /*==============  END CLIENT ==============*/
