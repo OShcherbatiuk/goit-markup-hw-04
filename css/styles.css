@@ -443,9 +443,10 @@ img {
 .footer .container {
   padding: 60px 15px;
   display: flex;
+  align-items: baseline;
 }
 
-.address {
+.footer-address {
   margin-right: 70px;
 }
 
@@ -488,10 +489,6 @@ img {
   color: var(--secondary-title-color);
 }
 
-.footer-social {
-  display: flex;
-}
-
 .footer-text-item {
   font-weight: 700;
   font-size: 14px;
@@ -504,8 +501,7 @@ img {
 
 .footer-social-list {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  margin-top: 20px;
 }
 
 .footer-social-list-item-link {
@@ -515,6 +511,11 @@ img {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-social-list-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .footer .social-link {
